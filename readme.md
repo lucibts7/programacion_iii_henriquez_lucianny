@@ -4,7 +4,7 @@ Bienvenido al repositorio oficial de la asignatura Programación III. Este espac
 
 👤 Autor
 
-Estudiante: Henriquez Lucianny
+Estudiante: Henriquez Castellanos Lucianny Valeria
 
 Carrera / Universidad: Desarrollo de Software - UTE
 
