@@ -57,3 +57,24 @@ do {
     console.log("Semana", semanas, "Ahorro actual:", ahorro, "unidades");
 } while (ahorro < meta);
 console.log("Meta alcanzada después de", semanas, "semanas. Ahorro total:", ahorro, "unidades");
+
+let cristales = [5, 10, 15, 20, 25, 60, 30, 15, 40, 45, 50];
+let objetivo = 150;
+let energiaTotal = 0;
+let indice = 0;
+while (indice < cristales.length) {
+    let cristal = cristales [indice];
+    energiaTotal += cristal;
+    indice++;
+    if (cristal<20){
+        console.log("Cristal" + cristal);
+        continue;
+    }
+    energiaTotal+=cristal;
+    console.log("Cristal" + cristal + "agregado. Energía total:" + energiaTotal);
+    if (energiaTotal>= objetivo){
+        console.log("Objetivo de Energía alcanzado con cristales.");
+        break;
+    }
+}
+console.log("Energía total acumulada: "+ energiaTotal);
