@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="06_crud_arreglo_mp_henriquez_lucianny.js" defer></script>
+</head>
+<body>
+    <h1>Estacionamiento Digital</h1>
+    <h2 id="tituloFormulario">Registro Vehículo</h2>
+    <form id="formulario">
+        <input type="text"
+        id="placa">
+        <select id="zona">
+            <option value="Zona A">Zona A</option>
+            <option value="Zona B">Zona B</option>
+            <option value="Zona C">Zona C</option>
+        </select>
+        <select id="estado">
+            <option value="disponible">disponible</option>
+            <option value="ocupado">ocupado</option>
+            <option value="reservado">reservado</option>
+        </select>
+        <button type="submit" id="guardar">Agregar</button>
+        <button type="button" id="cancelar">Cancelar</button>
+    </form>
+    <h2>Vehículos Registrados</h2>
+    <h2 id="cantidad">Cantidad</h2>
+    <div id="contenedor"></div>
+</body>
+</html>
